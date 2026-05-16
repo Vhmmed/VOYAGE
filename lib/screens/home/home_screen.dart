@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
               HeroSection(),
               SizedBox(height: 40),
               CuratedCollections(),
-              SizedBox(height: 40),
+              SizedBox(height: 120),
             ],
           ),
         ),
