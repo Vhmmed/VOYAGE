@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:voyga/splash.dart';
-import 'screens/auth/signin_screen.dart';
-import 'screens/auth/signup_screen.dart';
-import 'screens/home/home_screen.dart';
-import 'screens/wishlist/wishlist_screen.dart';
+import 'package:voyga/shared/views/root_shell.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:  SplashScreen(),
+      home: RootShell(),
     );
   }
 }
